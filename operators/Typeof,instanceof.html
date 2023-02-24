@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+   
+<script>
+<p>In JavaScript, the typeof operator is used to determine the type of a value or expression. It returns a string indicating the data type of the operand. For example:</p>
+
+ 
+
+console.log(typeof 42); // "number"
+console.log(typeof "hello"); // "string"
+console.log(typeof false); // "boolean"
+console.log(typeof undefined); // "undefined"
+console.log(typeof null); // "object" (note: this is a known bug in JavaScript)
+console.log(typeof []); // "object"
+console.log(typeof {}); // "object"
+console.log(typeof function(){}); // "function"
+
+ 
+
+// --------
+
+ 
+
+<p>The instanceof operator is used to determine whether an object is an instance of a particular class or constructor. It returns a boolean value. For example:</p>
+
+
+ 
+
+class MyClass {}
+const myObject = new MyClass();
+console.log(myObject instanceof MyClass); // true
+
+ 
+
+const myArray = [];
+console.log(myArray instanceof Array); // true
+
+ 
+
+const myFunction = function() {};
+console.log(myFunction instanceof Function); // true
+
+
+</script>
+
+</body>
+</html>
