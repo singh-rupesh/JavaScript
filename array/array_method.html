@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+    
+let array_string = ["red", "orange", "blue"];
+
+console.log(array_string.toString());
+//--------------------------------------//
+
+var fruits = ["mango", "orange", "banana"];
+fruits.pop();
+
+console.log(fruits.toString());
+//------------------------------------//
+
+let cars = ["bmw", "audi", "bugati" ];
+cars.push("ferrari");
+
+console.log(cars.toString());   
+//--------------------------------//
+
+var fruits = ["banana", "apple", "grapes" ];
+
+fruits.shift("banana")
+var  x = fruits.toString();
+console.log(fruits);
+
+//---------------------//
+
+var brand = ["toyota", "tata" , " maruti"];
+brand.unshift("bmw")
+var y = brand.toString();
+console.log(y);
+ 
+//------------------------------------//
+
+var school = ["dav" ,"gav" ,"Gov"]
+var xo = school.join(" * ")
+console.log(xo);
+//----------------------------//
+var state = ["up", "bihar", "mp"];
+delete state[0];
+console.log(state.toString());
+//-----------------------------//
+
+var boys =["sam" , "toni", "mark"];
+var girls =["neha" , "reena" , "hena"];
+
+var both = boys.concat(girls);
+
+console.log(both.toString());
+//-------------------------------//
+var arr1 =["i","am ", "the"];
+var arr2 =["best", "of" , "whole"];
+var arr3 =["world" , "people"];
+
+var arr4 =arr1.concat(arr2,arr3);
+
+console.log(arr4.toString());
+
+//-------------------------------//
+
+var name1 =["sam","ram","jam"];
+var add = name1.concat("toni");
+var add2 =add.toString();
+console.log(add2);
+
+//------------------------------//
+
+var ab =[[1,2],[1,3],[1,4]];
+
+var bc =ab.flat();
+
+console.log(bc.toString());
+
+
+
+
+</script>
+
+</body>
+</html>
+
